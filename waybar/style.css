@@ -1,0 +1,78 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: GeistMono NF;
+    font-size: 13px;
+    min-height: 0;
+    padding: 0 5px;
+}
+
+window#waybar {
+    background: transparent;
+    color: #221727;
+}
+
+window#waybar>box {
+    margin: 5px 0 0 0;
+}
+
+tooltip {
+  background: #221727;
+    border-radius: 10px;
+}
+tooltip label {
+  color: #FBE7CE;
+;
+}
+
+#workspaces {
+    margin-left: 10px;
+    background: #221727;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+#workspaces button.persistent {
+    color: #679884;
+    border: 3px solid transparent;
+}
+
+#workspaces button {
+    padding: 0 0px;
+}
+
+#workspaces button.empty {
+    color: #FBE7CE;
+}
+
+#workspaces button.active {
+    color: #221727;
+    background: #FBE7CE;
+    border-radius: 10px;
+}
+
+#custom-spotify, #idle_inhibitor, #pulseaudio, #custom-weather, #clock, #battery, #custom-power, #custom-dunst {
+    color: #FBE7CE;
+    padding: 0 15px;
+    background: #221727;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+#cpu, #memory, #temperature, #custom-nvidia {
+    min-width: 60px;
+    color: #FBE7CE;
+    padding: 0 15px;
+    background: #221727;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+#custom-power {
+    margin-right: 10px;
+    color: #FBE7CE;
+    padding: 0 15px;
+    background: #221727;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}

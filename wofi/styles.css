@@ -1,0 +1,55 @@
+* {
+    font-family: GeistMono NF;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+window {
+margin: 5px;
+border: 10px solid transparent;
+background-color: transparent;
+}
+
+#input {
+margin: 5px;
+border: 2px solid #FBE7CE;
+background-color: #FBE7CE;
+color: #679884;
+}
+
+#inner-box {
+margin: 5px;
+border: 2px solid #221727;
+background-color: #221727;
+}
+
+#expander-box {
+margin: 5px;
+border: 2px solid #221727;
+background-color: #221727;
+}
+
+#outer-box {
+margin: 5px;
+border: 2px solid #221727;
+background-color: #221727;
+}
+
+#scroll {
+margin: 0px;
+border: 0px solid transparent;
+background-color: transparent;
+}
+
+#text {
+margin: 0px;
+border: 0px solid transparent;
+background-color: transparent;
+color: #FBE7CE;
+padding-left: 10px;
+}
+
+#entry:selected {
+background-color: #679884;
+}
+

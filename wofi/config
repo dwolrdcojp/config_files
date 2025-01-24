@@ -1,0 +1,6 @@
+style=/home/max/.config/wofi/styles.css
+key_forward=Ctrl-n
+key_backward=Ctrl-p
+key_expand=Ctrl-y
+width=20%
+height=20%
